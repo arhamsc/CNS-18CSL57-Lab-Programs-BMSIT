@@ -18,7 +18,6 @@ Write a program for simple RSA algorithm to encrypt and decrypt the data.
 
 * [RSA Algorithm GeeksForGeeks](https://www.geeksforgeeks.org/rsa-algorithm-cryptography/)
 * Algorithm: - Two Stages -> Key Generation + Encryption/Decryption
-$$e*d \;\; \% \;\; \phi = 1 \;\; or \;\; d = e^{-1} \;\; \% \;\; (p-1)*(q-1)$$
 
 > Key Generation
 >>
