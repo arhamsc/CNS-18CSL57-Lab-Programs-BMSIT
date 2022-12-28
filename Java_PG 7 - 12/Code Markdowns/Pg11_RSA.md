@@ -20,10 +20,15 @@ Write a program for simple RSA algorithm to encrypt and decrypt the data.
 * Algorithm: - Two Stages -> Key Generation + Encryption/Decryption
 
 > Key Generation
+>>
 >> Step 1: Choose two large prime numbers $p$ & $q$
+>>
 >> Step 2: Compute the following for $n$ and $\phi$ such that: $$ n = p*q $$ $$ \phi = (p-1)*(q-1) $$
+>>
 >> Step 3: Choose a number $e$ such that: $$ 1<e<(p-1)*(q-1) $$
->> Step 4: A number $d$ is selected such that: $$ e*d \;\; \% \;\; \phi = 1 \;\; or \;\; d = e^{-1} \;\; \% \;\; (p-1) * (q-1) $$
+>>
+>> Step 4: A number $d$ is selected such that: $$e*d \;\; \% \;\; \phi = 1 \;\; or \;\; d = e^{-1} \;\; \% \;\; (p-1)*(q-1)$$
+>>
 >> Step 5: Public key is function $P(n,e)$ and Private key is function $P(n,d)$
 >>
 > Encryption/Decryption
