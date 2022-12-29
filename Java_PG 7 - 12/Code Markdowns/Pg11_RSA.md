@@ -26,17 +26,17 @@ Write a program for simple RSA algorithm to encrypt and decrypt the data.
 >> Step 2: Compute the following for $n$ and $\phi$ such that: $$ n = p*q $$ $$ \phi = (p-1)*(q-1) $$
 >>
 >> Step 3: Choose a number $e$ such that:
->> $$
+>> $
 >> 1<e<(p-1)*(q-1)
->> $$
+>> $
 >>
->> Step 4: A number $d$ is selected such that: $$e*d \;\; \% \;\; \phi = 1 \;\; or \;\; d = e^{-1} \;\; \% \;\; (p-1)*(q-1)$$
+>> Step 4: A number $d$ is selected such that: $e*d \;\; \% \;\; \phi = 1 \;\; or \;\; d = e^{-1} \;\; \% \;\; (p-1)*(q-1)$
 >>
 >> Step 5: Public key is function $P(n,e)$ and Private key is function $P(n,d)$
 >>
 > Encryption/Decryption
->> Encryption Function: - $$ cipher(c)=m^e \;\; \% \;\; n $$
->> Decryption Function: - $$ plainText(m)=c^d \;\; \% \;\; n$$
+>> Encryption Function: - $ cipher(c)=m^e \;\; \% \;\; n $
+>> Decryption Function: - $ plainText(m)=c^d \;\; \% \;\; n$
 
 ## Program
 
