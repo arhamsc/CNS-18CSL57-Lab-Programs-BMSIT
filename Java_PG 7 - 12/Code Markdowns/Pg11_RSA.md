@@ -35,7 +35,7 @@ Write a program for simple RSA algorithm to encrypt and decrypt the data.
 >> Step 5: Public key is function $P(n,e)$ and Private key is function $P(n,d)$
 >>
 > Encryption/Decryption
->> Encryption Function: - $ cipher(c)=m^e \;\; \% \;\; n $
+>> Encryption Function: - $ cipher(c)=m^e \% n $
 >> Decryption Function: - $ plainText(m)=c^d \;\; \% \;\; n$
 
 ## Program
